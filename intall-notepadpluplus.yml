@@ -4,7 +4,7 @@
    tasks:
 - name: fetch notepad-plus-plus installer
    win_get_url:
- url: https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.2.1/npp.8.2.1.Installer.x64.exe
+ url: "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.2.1/npp.8.2.1.Installer.x64.exe"
  dest: "C:\Users\sushmitam\temp\npp.7.5.3.Installer.exe"
 
 - name: install notepad plus plus
