@@ -2,9 +2,7 @@
 - hosts: localhost
   connection: localhost
   tasks:
-    - name: install Curl and Unzip are installed
+    - name: install Unzip installed
       apt:
-        update_cache: no
-      loop:
-        - curl
-        - unzip
+        name: Unzip
+        state: present
