@@ -7,10 +7,10 @@
         name: unzip 
         state: present
         updatedcache: true
-      become: true
+        become: true
     - name: ensure php7.2 is installed
       apt:
         name: php7.2
         state: present
         update_cache: true
-       become: true
+        become: true
