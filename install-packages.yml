@@ -4,5 +4,8 @@
   tasks:
     - name: install Unzip
       apt:
-        name: unzip
+        name: 
+        loop:
+            -unzip
+            -nginx
         state: present
