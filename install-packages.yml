@@ -2,9 +2,9 @@
 - hosts: localhost
   connection: localhost
   tasks:
-    - name: Update apt cache and make sure Vim, Curl and Unzip are installed
+    - name: install Curl and Unzip are installed
       apt:
-        update_cache: yes
+        update_cache: no
       loop:
         - curl
         - unzip
