@@ -4,6 +4,5 @@
   tasks:
     - name: install Unzip installed
       apt:
-        name: unzip
+        name: nginx
         state: present
-        force_apt_get: yes
