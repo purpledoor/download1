@@ -2,7 +2,7 @@
 - hosts: localhost
   connection: localhost
   tasks:
-    - name: install Unzip installed
+    - name: install Unzip
       apt:
         name: unzip
         state: present
