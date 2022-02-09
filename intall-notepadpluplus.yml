@@ -1,6 +1,6 @@
 # start of playbook
 - name: install notepad plus plus playbook
-   hosts: 172.28.96.1
+   hosts: [host-servers]
    tasks:
 - name: fetch notepad-plus-plus installer
    win_get_url:
