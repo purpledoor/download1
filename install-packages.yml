@@ -4,5 +4,5 @@
   tasks:
     - name: install Unzip installed
       apt:
-        name: Unzip
+        name: apache2
         state: present
