@@ -12,4 +12,4 @@ ansible_winrm_transport: basic
 
 ansible_winrm_port: 5985
 
-ansible_python_interpreter: C:\Users\geekflare\AppData\Local\Programs\Python\Python37\python
+ansible_python_interpreter: C:\Python310\python
